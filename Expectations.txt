@@ -1,0 +1,80 @@
+
+Java FSD
+-----------------------------------------------------------------------------------
+
+        Full Stack Developenent
+        --------------------------------------------------
+        Persistence                                         Data Storage
+            RDBMS / NoSQL / IO Streams
+            ORM Frameworks
+        
+        BackEnd                                             Bussiness Logic + Persistence Interaction
+            Programmaing Language
+            Server Side Web Developenent
+            WebServices
+                SOAP
+                REST
+        
+        UI/UX                                               User Interaction / User Experiecne
+            Client Side Web Developenent
+                HTML 
+                CSS
+                BootStrap
+                JQuery
+                JavaScript ES6
+                Angular / ReactJS
+        
+        DevOps                                              Deployment and Maintanence and Upgradation
+            Developemnt And Operations
+                Continous Integration and Continous Developenent
+                PipeLines
+                Containarization
+
+        MicroServices
+
+        Corporate Batches
+        -------------------------------------------------------------------------
+
+        GreenField Batches / Induction ---- Freshers
+        Premimium Batches               ---- BitFhilani/ IIIT...
+        L3 Batches                      
+
+    SDLC
+    -------------------------------------------------------------------------------------
+
+            Software Developenent Life Cycle
+            ================================================
+
+                Agile   and     Scrum
+       
+            Application Characteristicts.
+            ---------------------------------------------------------
+
+            Legitimacy
+                            App Source Code (Code Base) Readability
+
+                            1. Coding Standards (Naming Conventions).
+                            2. Comments
+
+                            Qulatiy Testing/Analysis Tools
+                            PMD
+                            SonarQube
+
+            Reliability
+                            Fault Tolerence 
+
+                            1. Defensive Programmaing
+                            2. Exception Handling
+                            3. Logging
+
+            Maintainability
+                            IF
+                                the amount of time (effort in man hours) to make a 
+                                change in the existing code base  
+                            IS as min as possible then we say that the product is maintainable.
+
+                            1. Modularization
+                            2. Design Patterns (SOLID)
+
+            Scalability
+
