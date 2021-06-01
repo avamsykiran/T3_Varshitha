@@ -47,7 +47,7 @@ Java FSD
 
                 Agile   and     Scrum
        
-            Application Characteristicts.
+            Application Characteristicts
             ---------------------------------------------------------
 
             Legitimacy
