@@ -237,6 +237,7 @@ smallest element in the program.
                 .
                 ;
                 instance of
+
 4. literals
         any hard coded value.
 
@@ -299,9 +300,6 @@ smallest element in the program.
         block comment                   /*  and */
         documentation comment           /** and */
 
-
-
-
 data types   
 ----------
     primitve types
@@ -329,10 +327,6 @@ data types
         interface
         enum
 
-
-1) store principle, time and rate of interest. calculate simple interest. print it.
-
-
 Scanner:  (java.util)
 ---------------------
     is used to accept data from the user into variables during runtime.
@@ -344,7 +338,133 @@ Scanner:  (java.util)
     nextInt()
     nextDouble()
     nextLong()
-    next()          : to accept string
-    nextLine()      : to accept string 
+    next()          : to accept string (that contain only one word)
+    nextLine()      : to accept string (that contain one or multiple words)
+
+What is If?
+    It is bi-directional decision making statement.
+
+    if (condition)
+        statement;
+    [else
+        statement;]
+
+    if (condition) {
+        statement-1;
+        statement-2;
+        ...
+    } [else {
+        statement-1;
+        statement-2;
+        ...
+    }]
+
+
+4-jun-2021
+----------------------------------------------------------------------------
+1. accept three numbers. print the biggest of these.
+2. accept a number. print whether it is EVEN or ODD.
+3. accept an year. print whether it is LEAP Year or Not.
+
+                            year
+                              |
+                ---------------------------------
+                |                               |
+            century_year                non century_year
+                |                               |
+            divisible by 400            divisible by 4
+                |                               |
+        -----------------               -------------------
+        |               |               |                  |
+    Leap Year       Non Leap Year     Leap Year        Non Leap Year
+
+
+
+5-jun-2021
+----------------------------------------------------------------------------
+What is Switch?
+    It is multi-directional decision making statement.
+
+    switch (var/expr) {
+        case label-1 : 
+            statement-1;
+            statement-2;
+            [break;]
+        case label-2 : 
+            statement-1;
+            statement-2;
+            [break;]
+        ...
+        ...
+        default:
+            statement-1;
+            statement-2;
+            [break;]
+    }
+
+a) the var/expr must be int, char, string, enum type only.
+b) label-1, label-2, ... are integer literals, character literals, string literals, enumerators.
+c) comparisions must only be for equality.
+
+
+4. accept two numbers and an arithmetic operator. perform the operation and print the result.
+5. redo the program#4 using if statement.
+6. accept a color code. print the corresponding color name.
+
+
+Loop:
+    set of statements that are executed repeatedly is called loop.
+1) for
+2) while
+3) do..while
+
+for:
+----
+    statement(s) in the for loop are executed repeatedly as long as the condition is TRUE.
+
+    syntax:
+                    (1)             (2)         (4)
+            for(initialization; condition; update_expression) {
+                statement-1;
+                statement-2;        (3)
+                ....
+                [break;]
+            }
+
+    the for loop is used when we know how many times you want to execute statements.
+
+7. print the first 'n' natural numbers.
+8. print the first 'n' natural numbers in reverse order.
+9. print the sum of first 'n' natural numbers.
+10. print the sum of squares of first 'n' natural numbers.
+11. print the factorial of 'n'.
+        5! = 1x2x3x4x5
+        3! = 1x2x3
+12. print the multiplication table of a given number upto 10 terms.
+        input : 6
+        output :
+            6 x 1 = 6
+            6 x 2 = 12
+            6 x 3 = 18
+            ...
+            6 x 10 = 60
+
+
+
+
+
+
+
+
+
+
+
+
     
+
+
+
+
+
+
 
