@@ -2,7 +2,7 @@
 Java FSD
 -----------------------------------------------------------------------------------
 
-        Full Stack Developenent
+        Full Stack Development
         --------------------------------------------------
         Persistence                                         Data Storage
             RDBMS / NoSQL / IO Streams
